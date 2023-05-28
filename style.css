@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #485461;
+    background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);;
+}
+.navbar{
+    align-items: center;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f2f2f3;
+    box-shadow: rgba(0,0,0,0.1)0px 2px 4px 0px;
+}
+
+.nav-brand{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.search_input{
+    padding: 8px;
+    width: 300px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    font-size: 15px;
+
+}
+.search_input:focus{
+    outline-color: #874556;
+}
+
+.search_button{
+    padding: 6px;
+    color: white ;
+    background-color:  #874556;
+    height: 40px;
+    font-size: 15px;
+    width: 90px;
+    border-radius: 8px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.search_button:hover{
+    outline-color: #874556;  
+    background: white ;
+    color: #874556;
+    font-weight: bold;
+}
+
+
+.last_nav{
+    display: flex; 
+    list-style-type: none;
+    justify-content: space-between;
+    
+}
+
+.nav_item{
+    margin-left: 25px;
+
+}
+
+.nav_link{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out; 
+}
+
+.nav_link:hover{
+    color: white; 
+    background-color: #874556;
+}
+
+.active{
+    color: white; 
+    background-color: #874556;
+}
+
+/* <------------------------------------------------------------------------------> */
+
+.container {
+    max-width: 400px;
+    margin: 100px auto;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .form-group input[type="text"],
+  .form-group input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1px solid #874556;
+  }
+
+  #submit {
+    background-color: #874556;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    /* border: #8745 56;   */
+    background-color: white ; 
+    outline-color: #874556; 
+    color: #874556;
+    font-weight: bold;
+  }
+
+ 
